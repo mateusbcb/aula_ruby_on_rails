@@ -13,5 +13,7 @@ _30/12/2023_
 
 * Comandos Rails
 * Hellow World
+* Gem - Bootstrap
+* Gem - Jquery-rails
 
 ---
