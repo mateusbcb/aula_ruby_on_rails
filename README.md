@@ -15,5 +15,6 @@ _30/12/2023_
 * Hellow World
 * Gem - Bootstrap
 * Gem - Jquery-rails
+* Adicionado Partials para Menu e rodapé
 
 ---
