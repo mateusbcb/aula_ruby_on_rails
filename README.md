@@ -26,3 +26,4 @@ _31/12/2023_
 * Paginas Estáticas
 * Model - Contact (usando scaffold)
 * model - User (criado manualmente)
+* Validações para criação de usuário
