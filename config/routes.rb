@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  #Rotas para CRUD de Contatos
-  resources :contacts
   # Defines the root path route ("/")
   root to: "static_pages#index"
 
@@ -8,4 +6,9 @@ Rails.application.routes.draw do
   get "sobre", to: 'static_pages#sobre'
   # Rota Contato '/contato'
   get "contato", to: 'static_pages#contato'
+
+  #Rotas para CRUD de Contatos
+  resources :contacts
+  #Rotas para CRUD de Usuários
+  resources :users, only: [:new, :create]
 end
