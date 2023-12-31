@@ -18,3 +18,9 @@ _30/12/2023_
 * Adicionado Partials para Menu e rodapé
 
 ---
+
+#### Segundo Dia
+
+_31/12/2023_
+
+* Paginas Estáticas
