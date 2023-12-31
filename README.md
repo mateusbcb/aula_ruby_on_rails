@@ -24,3 +24,4 @@ _30/12/2023_
 _31/12/2023_
 
 * Paginas Estáticas
+* Model - Contact (usando scaffold)

@@ -7,6 +7,6 @@ class StaticPagesController < ApplicationController
     def sobre
     end
 
-    def contatos
+    def contato
     end
 end
