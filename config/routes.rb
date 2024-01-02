@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   #Rotas para CRUD de Contatos
   resources :contacts
   #Rotas para CRUD de Usuários
-  resources :users, only: [:new, :create]
+  resources :users, only: [:new, :create, :show]
 end
