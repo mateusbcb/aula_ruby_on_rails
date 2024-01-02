@@ -9,15 +9,10 @@ class UsersController < ApplicationController
         @user = User.new(user_params)
         if @user.save
             flash[:success] = 'Usuário cadastrado com sucesso!'
-            redirect_to user_path(@user)
+            redirect_to root_path
         else
             render :new, status: :unprocessable_entity
         end
-    end
-
-    # Pagina do Usuário Cadstrado.
-    def show
-        @user = User.find(params[:id])
     end
 
     # Função privada para filtrar os parametros aceitos do formulário

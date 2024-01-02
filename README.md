@@ -58,3 +58,13 @@ Pelo codigo:
 ```
 
 O "_status: :unprocessable_entity_", representa o codigo 422 erro de validação,  além de estar mais correto, ele evita o redirecionamento da url, eliminando o problema de segurança com o redirecionamento.
+
+---
+
+#### quarto Dia
+
+_02/01/2024_
+
+* 
+
+---
