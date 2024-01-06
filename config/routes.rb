@@ -7,6 +7,11 @@ Rails.application.routes.draw do
   # Rota Contato '/contato'
   get "contato", to: 'static_pages#contato'
 
+  # Rotas de Login
+  get  'entrar', to: 'sessions#new'
+  post 'entrar', to: 'sessions#create'
+  delete 'sair', to: 'sessions#destroy'
+
   #Rotas para CRUD de Contatos
   resources :contacts
   #Rotas para CRUD de Usuários

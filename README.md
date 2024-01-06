@@ -61,10 +61,21 @@ O "_status: :unprocessable_entity_", representa o codigo 422 erro de validação
 
 ---
 
-#### quarto Dia
+#### Quarto Dia
 
 _02/01/2024_
 
+* Ajustado Link dos Botões e o falsh message
+* Tradução das mensagens de validação
+* Tela de Login
+
+---
+
+#### Quinto Dia
+
+_06/01/2024_
+
+* correções do bootstrap e Jquery (foi necessário colocar CDN para agilizar o processo)
 * 
 
 ---
