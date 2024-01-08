@@ -76,6 +76,14 @@ _02/01/2024_
 _06/01/2024_
 
 * correções do bootstrap e Jquery (foi necessário colocar CDN para agilizar o processo)
-* 
+* ajuste no modelo Contacts e User (Ligação entre tabelas, 'has_many' e 'belongs_to')
+* adicionado user_id na tabela Contacts
 
 ---
+
+#### Sexto Dia
+
+_08/01/2024
+
+* Correção de Models e view de contacts
+* 

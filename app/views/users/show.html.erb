@@ -1,1 +1,7 @@
-<h2>Olá, <%= current_user.name %></h2>
+<% if user_signed_in? %>
+    <h2>Olá, <%= current_user.name %></h2>
+<% else %>
+    <div class="alert alert-danger">
+        <p>Área Restrita! Faça <%= link_to 'Login', entrar_path %>, para acessar.</p>
+    </div>
+<% end %>
