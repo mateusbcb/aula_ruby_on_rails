@@ -1,7 +1,13 @@
 class UsersController < ApplicationController
+    before_action :require_logged_in_user, only: [:edit, :update]
+
     # Exibe a view com o formulário de novo usuário
     def new
-        @user = User.new
+        if user_signed_in?
+            redirect_to user_path(current_user)
+        else
+            @user = User.new
+        end
     end
 
     # Cadastra o novo Usuário
@@ -12,6 +18,18 @@ class UsersController < ApplicationController
             redirect_to root_path
         else
             render :new, status: :unprocessable_entity
+        end
+    end
+
+    def edit
+    end
+
+    def update
+        if current_user.update(user_params)
+            flash[:success] = 'Dados atualizados'
+            redirect_to contacts_url
+        else
+            render :edit, status: :unprocessable_entity
         end
     end
 

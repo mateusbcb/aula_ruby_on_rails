@@ -78,12 +78,23 @@ _06/01/2024_
 * correções do bootstrap e Jquery (foi necessário colocar CDN para agilizar o processo)
 * ajuste no modelo Contacts e User (Ligação entre tabelas, 'has_many' e 'belongs_to')
 * adicionado user_id na tabela Contacts
+* Controle de Rotas e areas restritas para usuários logados
 
 ---
 
 #### Sexto Dia
 
-_08/01/2024
+_08/01/2024_
 
 * Correção de Models e view de contacts
-* 
+* Melhoria da view contacts (lista de contatos)
+
+---
+
+#### setimo Dia
+
+_09/01/2024_
+
+* Melhoria da View contacts new
+* Criação e melhoria da view contacts edit
+* redirecionamento caso Logado para página contacts
